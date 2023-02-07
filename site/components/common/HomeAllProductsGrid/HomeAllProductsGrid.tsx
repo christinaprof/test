@@ -24,7 +24,7 @@ const HomeAllProductsGrid: FC<Props> = ({
         <div className={s.aside}>
           <ul className="mb-10">
             <li className="py-1 text-base font-bold tracking-wide">
-              <Link href={getCategoryPath('')}>All Categories</Link>
+              <Link href={getCategoryPath('')}>All </Link>
             </li>
             {categories?.map((cat: any) => (
               <li key={cat.path} className="py-1 text-accent-8 text-base">
@@ -34,7 +34,7 @@ const HomeAllProductsGrid: FC<Props> = ({
           </ul>
           <ul className="">
             <li className="py-1 text-base font-bold tracking-wide">
-              <Link href={getDesignerPath('')}>All Brands</Link>
+              <Link href={getDesignerPath('')}>All Designers</Link>
             </li>
             {brands?.map(({ path, name }) => (
               <li key={path} className="py-1 text-accent-8 text-base">
