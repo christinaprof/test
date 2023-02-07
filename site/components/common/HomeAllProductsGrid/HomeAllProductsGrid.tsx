@@ -34,7 +34,7 @@ const HomeAllProductsGrid: FC<Props> = ({
           </ul>
           <ul className="">
             <li className="py-1 text-base font-bold tracking-wide">
-              <Link href={getDesignerPath('')}>All Designers</Link>
+              <Link href={getDesignerPath('')}>All Brands</Link>
             </li>
             {brands?.map(({ path, name }) => (
               <li key={path} className="py-1 text-accent-8 text-base">
