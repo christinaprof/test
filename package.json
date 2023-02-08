@@ -19,5 +19,10 @@
       "pre-commit": "turbo run lint"
     }
   },
+  "scripts": {
+  "dev": "next",
+  "build": "next build",
+  "start": "next start"
+},
   "packageManager": "pnpm@7.5.0"
 }
